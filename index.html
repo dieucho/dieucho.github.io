@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />	<!--Responsive web design does not work without this meta element, because it tells the browser that it should be rendered with the width of the device.-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<!--Fonts  -->
 		<link
@@ -23,11 +23,9 @@
 			<label for="navi-toggle" class="navigation__button">
 				<!--This is where the menu icon goes-->
 				<span class="navigation__icon">&nbsp;</span>
-				<!--This is the actual "three lines" icon. The &nbsp; means empty, es simplemente un espacio en blanco-->
 			</label>
 
 			<div class="navigation__background">&nbsp;</div>
-			<!--This is to put on top the navigation itself-->
 
 			<nav class="navigation__nav">
 				<ul class="navigation__list">
@@ -63,8 +61,8 @@
 			</div>
 			<div class="header__text-box">
 				<h1 class="heading-primary">
-					<span class="heading-primary--main">NANCHE_TECH</span>
-					<span class="heading-primary--sub">Engineering</span>
+					<span class="heading-primary--main">DIEGO CHAVEZ H</span>
+					<span class="heading-primary--sub">Computer Engineer</span>
 				</h1>
 				<a href="CV_DiegoCh.pdf" class="btn btn--white btn--animated"
 					>Contact</a
@@ -174,125 +172,12 @@
 				</div>
 			</section>
 
-			<section class="section-packages" id="section-packages">
-				<div class="u-center-text u-margin-bottom-big">
-					<h2 class="heading-secondary">Some Projects:</h2>
-				</div>
-				<div class="row">
-					<div class="col-1-of-3">
-						<div class="cards">
-							<div class="cards__side cards__side--front">
-								<div class="cards__picture cards__picture--1">&nbsp;</div>
-								<h4 class="cards__heading">
-									<span class="cards__heading-span cards__heading-span--1"
-										>The sea Explorer</span
-									>
-								</h4>
-								<div class="cards__details">
-									<ul>
-										<li>3 days tour</li>
-										<li>Up to 30 people</li>
-										<li>2 tour guides</li>
-										<li>sleep in cozy hotels</li>
-										<li>Difficulty: easy</li>
-									</ul>
-								</div>
-							</div>
-							<div class="cards__side cards__side--back cards__side--back-1">
-								<div class="cards__cta">
-									<div class="cards__price-box">
-										<p class="cards__price-only">Only</p>
-										<p class="cards__price-value">$297</p>
-									</div>
-									<a class="btn btn--white" href="#popup">Book now!</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-1-of-3">
-						<div class="cards">
-							<div class="cards__side cards__side--front">
-								<div class="cards__picture cards__picture--2">&nbsp;</div>
-								<h4 class="cards__heading">
-									<span class="cards__heading-span cards__heading-span--2"
-										>The forest Hiker</span
-									>
-								</h4>
-								<div class="cards__details">
-									<ul>
-										<li>7 days tour</li>
-										<li>Up to 40 people</li>
-										<li>6 tour guides</li>
-										<li>sleep in provided tents</li>
-										<li>Difficulty: medium</li>
-									</ul>
-								</div>
-							</div>
-							<div class="cards__side cards__side--back cards__side--back-2">
-								<div class="cards__cta">
-									<div class="cards__price-box">
-										<p class="cards__price-only">Only</p>
-										<p class="cards__price-value">$497</p>
-									</div>
-									<a class="btn btn--white" href="#popup">Book now!</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-1-of-3">
-						<div class="cards">
-							<div class="cards__side cards__side--front">
-								<div class="cards__picture cards__picture--3">&nbsp;</div>
-								<h4 class="cards__heading">
-									<span class="cards__heading-span cards__heading-span--3"
-										>The snow Adventurer</span
-									>
-								</h4>
-								<div class="cards__details">
-									<ul>
-										<li>5 days tour</li>
-										<li>Up to 15 people</li>
-										<li>3 tour guides</li>
-										<li>sleep in provided tents</li>
-										<li>Difficulty: hard</li>
-									</ul>
-								</div>
-							</div>
-							<div class="cards__side cards__side--back cards__side--back-3">
-								<div class="cards__cta">
-									<div class="cards__price-box">
-										<p class="cards__price-only">Only</p>
-										<p class="cards__price-value">$897</p>
-									</div>
-									<a class="btn btn--white" href="#popup">Book now!</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="u-center-text u-margin-top-huge">
-					<a class="btn btn--green" href="#">Discover all tours</a>
-				</div>
-			</section>
-
 		</main>
 
 		<footer class="footer">
 			<div class="footer__logo-box">
 				<picture class="footer__logo">
-					<source
-						srcset="
-							img/logo-green-small-1x.png 1x,
-							img/logo-green-small-2x.png 2x
-						"
-						media="(max-width: 37.5em)"
-					/>
-					<img
-						srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
-						alt="Full logo"
-						src="img/logo-green-2x.png"
-					/>
-					<!--We add the src when using srcset in case the browser is old and does not support srcset-->
+					<img src="img/logo04.png" alt="logo" class="footer__logo" />
 				</picture>
 			</div>
 			<div class="row">
@@ -319,44 +204,11 @@
 				</div>
 				<div class="col-1-of-2">
 					<p class="footer__copyright">
-						Built by <a href="#" class="footer__link">Jonas Schmedtmann</a> for
-						his online course
-						<a href="#" class="footer__link">Advanced CSS and Sass</a>.
-						Copyright &copy; by Jonas Schmedtmann. You are 100% allowed to use
-						<!--The &copy is the code for the copyright symbol-->
-						this webpage for both personal and commercial use, but NOT to claim
-						it as your own design. A credit to the original author, Jonas
-						Schmedtmann, is of course highly appreciated!
+						Built by <a href="#" class="footer__link">Diego Chavez H</a>
+						Sit veniam voluptatibus illo delectus libero autem incidunt.
 					</p>
 				</div>
 			</div>
 		</footer>
-
-		<div class="popup" id="popup">
-			<!--This can be anywhere since it isn't part of any other page element-->
-			<div class="popup__content">
-				<div class="popup__left">
-					<img src="img/nat-8.jpg" alt="Tour photo" class="popup__img" />
-					<img src="img/nat-9.jpg" alt="Tour photo" class="popup__img" />
-				</div>
-				<div class="popup__right">
-					<a href="#section-packages" class="popup__close">&times;</a>
-					<!--To close the popup we just change the 'target' to the #section-packages id. The &times; is just an 'x' in html-->
-					<h2 class="heading-secondary u-margin-bottom-small">
-						Start booking now
-					</h2>
-					<h3 class="heading-tertiary u-margin-bottom-small">
-						Important &ndash; Please read these terms before booking
-					</h3>
-					<p class="popup__text">
-						Sit veniam voluptatibus illo delectus libero autem incidunt.
-						Molestiae vel officia voluptatibus delectus ullam In quisquam
-						quibusdam laborum architecto minima vitae, beatae quaerat animi
-						incidunt. Architecto quasi corrupti necessitatibus debitis
-					</p>
-					<a href="#" class="btn btn--green">Book now</a>
-				</div>
-			</div>
-		</div>
 	</body>
 </html>
