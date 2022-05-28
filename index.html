@@ -9,7 +9,8 @@
 			href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="css/icon-font.css" />	<!--This line is commented since it was added already in the build process and it's in the style.css file already. ONLY COMMENT WHEN IT'S READY TO DEPLOY-->
+		<link rel="stylesheet" href="css/icon-font.css" />
+		<!--This line is commented since it was added already in the build process and it's in the style.css file already. ONLY COMMENT WHEN IT'S READY TO DEPLOY-->
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="shortcut icon" type="image/png" href="img/logo04.png" />
 
@@ -33,15 +34,16 @@
 						<a href="#" class="navigation__link"><span>01</span>About Me</a>
 					</li>
 					<li class="navigation__item">
-						<a href="#" class="navigation__link"><span>02</span>Some projects</a>
+						<a href="#" class="navigation__link"><span>02</span>Portfolio</a>
 					</li>
 					<li class="navigation__item">
-						<a href="#" class="navigation__link"
-							><span>03</span>Education</a
-						>
+						<a href="#" class="navigation__link"><span>03</span>Skills</a>
 					</li>
 					<li class="navigation__item">
-						<a href="#" class="navigation__link"><span>04</span>Contact info</a>
+						<a href="#" class="navigation__link"><span>04</span>Education</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#" class="navigation__link"><span>05</span>Contact info</a>
 					</li>
 				</ul>
 			</nav>
@@ -60,8 +62,12 @@
 				<h1 class="heading-primary">
 					<span class="heading-primary--main">DIEGO CHAVEZ</span>
 					<span class="heading-primary--sub">Computer Engineer</span>
+					<span class="heading-primary--post">Full-Stack developer</span>
 				</h1>
-				<a href="CV_Diego_Ch_(English).pdf" class="btn btn--white btn--animated" target="_blank"
+				<a
+					href="CV_Diego_Ch_(English).pdf"
+					class="btn btn--white btn--animated"
+					target="_blank"
 					>My CV</a
 				>
 			</div>
@@ -69,66 +75,38 @@
 			<div class="header__under-construction">
 				<p class="generic-text">( Page under construction )</p>
 			</div>
-
 		</header>
 
 		<main>
 			<section class="section-about">
-				<div class="u-center-text u-margin-bottom-big">
+				<div class="u-center-text u-margin-bottom-medium">
 					<!--Utility class-->
-					<h2 class="heading-secondary">Technologies I work with:</h2>
+					<h2 class="heading-secondary">About me</h2>
 				</div>
-				<div class="row">
-					<div class="col-1-of-2">
-						<h3 class="heading-tertiary u-margin-bottom-small">Front end</h3>
-						<p class="paragraph">
-							Elit in voluptas adipisci molestias adipisci odit. Provident
-							dolores inventore ducimus architecto veritatis Ipsa labore
-							voluptas odit neque rerum! Assumenda molestiae ratione rem ducimus
-							quis dolore. Harum consequuntur quasi inventore.
-						</p>
-
-						<h3 class="heading-tertiary u-margin-bottom-small">Back end</h3>
-						<p class="paragraph">
-							Sit eligendi consectetur et veniam vel hic nam. Tenetur voluptate
-							maiores quo distinctio natus reprehenderit? Voluptate repudiandae
-							non debitis sint vitae Voluptate voluptate quibusdam quibusdam
-							iste error Suscipit vitae a
-						</p>
-
-						<a class="btn-text" href="#">About me &rarr;</a>
-					</div>
-					<div class="col-1-of-2">
-						<div class="composition">
-							<img
-								srcset="img/html_logo-1x.png 300w, img/html_logo-2x.png 512w"
-								sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
-								alt="html logo"
-								class="composition__photo composition__photo--p1"
-								src="img/html_logo-2x.png"
-							/>
-
-							<img
-								srcset="img/css_logo-1x.png 300w, img/css_logo-2x.png 500w"
-								sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
-								alt="css logo"
-								class="composition__photo composition__photo--p2"
-								src="img/css_logo-2x.png"
-							/>
-
-							<img
-								srcset="img/javascript_logo-1x.png 300w, img/javascript_logo-2x.png 1200w"
-								sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
-								alt="css logo"
-								class="composition__photo composition__photo--p3"
-								src="img/javascript_logo-2x.png"
-							/>
-						</div>
-					</div>
+				<div class="section-about__elements">
+					<blockquote class="section-about__elements-paragraph paragraph">
+						"I'm passionate about software development and enjoy learning new
+						technologies, find different ways to solve a problem, teaching and
+						sharing knowledge, writing code, and work creatively in small or
+						large team environments in order to create new software features,
+						and products."
+					</blockquote>
+					<picture class="section-about__elements-picture">
+						<img
+							srcset="img/me-b-1x.jpg 300w, img/me-b-2x.jpg 512w"
+							sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+							alt="My picture"
+							class="section-about__elements-picture--photo"
+							src="img/me-b-2x.jpg"
+						/>
+					</picture>
 				</div>
 			</section>
-
 			<section class="section-feature">
+				<div class="u-center-text u-margin-bottom-extrabig">
+					<!--Utility class-->
+					<h2 class="heading-secondary u-change-color-clear">Portfolio</h2>
+				</div>
 				<div class="row">
 					<div class="col-1-of-4">
 						<div class="feature-box">
@@ -174,6 +152,127 @@
 				</div>
 			</section>
 
+			<section class="section-technologies">
+				<div class="u-center-text u-margin-bottom-medium">
+					<!--Utility class-->
+					<h2 class="heading-secondary">Skills</h2>
+				</div>
+
+				<div class="skills-logos">
+					<svg class="java__icon">
+						<use xlink:href="img/sprite.svg#icon-html5"></use>
+					</svg>
+
+					<svg class="java__icon">
+						<use xlink:href="img/sprite.svg#icon-css3"></use>
+					</svg>
+					<svg class="java__icon">
+						<use xlink:href="img/sprite.svg#icon-javascript"></use>
+					</svg>
+
+					<svg class="java__icon">
+						<use xlink:href="img/sprite.svg#icon-java"></use>
+					</svg>
+
+					<svg class="java__icon">
+						<use xlink:href="img/sprite.svg#icon-mysql"></use>
+					</svg>
+
+					<svg class="java__icon">
+						<use xlink:href="img/sprite.svg#icon-bootstrap"></use>
+					</svg>
+
+					<svg class="java__icon">
+						<use xlink:href="img/sprite.svg#icon-git"></use>
+					</svg>
+
+					<svg class="java__icon">
+						<use xlink:href="img/sprite.svg#icon-github"></use>
+					</svg>
+
+					<svg class="java__icon">
+						<use xlink:href="img/sprite.svg#icon-linux"></use>
+					</svg>
+
+
+				</div>
+
+				<!-- <div class="row u-margin-bottom-small">-->
+				<!--<div class="col-1-of-2">-->
+				<!--<h3 class="heading-tertiary u-margin-bottom-small">Front end</h3>-->
+				<!--<p class="paragraph">HTML, CSS, JavaScript, Sass, React, Bootstrap, Thymeleaf</p>-->
+
+				<!--[><a class="btn-text" href="#">About me &rarr;</a><]-->
+				<!--</div>-->
+				<!--<div class="col-1-of-2">-->
+				<!--<h3 class="heading-tertiary u-margin-bottom-small">Back end</h3>-->
+				<!--<p class="paragraph">Java, Spring Boot, Hibernate, MySQL</p>-->
+				<!--</div>-->
+				<!--</div>-->
+
+				<!--<div class="row">-->
+				<!--<div class="col-1-of-2">-->
+				<!--<div class="composition">-->
+				<!--<img-->
+				<!--srcset="img/html_logo-1x.png 300w, img/html_logo-2x.png 512w"-->
+				<!--sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"-->
+				<!--alt="html logo"-->
+				<!--class="composition__photo composition__photo--p1"-->
+				<!--src="img/html_logo-2x.png"-->
+				<!--/>-->
+
+				<!--<img-->
+				<!--srcset="img/css_logo-1x.png 300w, img/css_logo-2x.png 500w"-->
+				<!--sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"-->
+				<!--alt="css logo"-->
+				<!--class="composition__photo composition__photo--p2"-->
+				<!--src="img/css_logo-2x.png"-->
+				<!--/>-->
+
+				<!--<img-->
+				<!--srcset="-->
+				<!--img/javascript_logo-1x.png  300w,-->
+				<!--img/javascript_logo-2x.png 1200w-->
+				<!--"-->
+				<!--sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"-->
+				<!--alt="css logo"-->
+				<!--class="composition__photo composition__photo--p3"-->
+				<!--src="img/javascript_logo-2x.png"-->
+				<!--/>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--<div class="col-1-of-2">-->
+				<!--<div class="composition">-->
+				<!--<img-->
+				<!--srcset="img/html_logo-1x.png 300w, img/html_logo-2x.png 512w"-->
+				<!--sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"-->
+				<!--alt="html logo"-->
+				<!--class="composition__photo composition__photo--p1"-->
+				<!--src="img/html_logo-2x.png"-->
+				<!--/>-->
+
+				<!--<img-->
+				<!--srcset="img/css_logo-1x.png 300w, img/css_logo-2x.png 500w"-->
+				<!--sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"-->
+				<!--alt="css logo"-->
+				<!--class="composition__photo composition__photo--p2"-->
+				<!--src="img/css_logo-2x.png"-->
+				<!--/>-->
+
+				<!--<img-->
+				<!--srcset="-->
+				<!--img/javascript_logo-1x.png  300w,-->
+				<!--img/javascript_logo-2x.png 1200w-->
+				<!--"-->
+				<!--sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"-->
+				<!--alt="css logo"-->
+				<!--class="composition__photo composition__photo--p3"-->
+				<!--src="img/javascript_logo-2x.png"-->
+				<!--/>-->
+				<!--</div>-->
+				<!--</div>-->
+				<!--</div>-->
+			</section>
 		</main>
 
 		<footer class="footer">
@@ -203,7 +302,9 @@
 				</div>
 				<div class="col-1-of-2">
 					<p class="footer__copyright">
-						2022<a href="#" class="footer__link">&nbsp;&nbsp; Nanche Technologies</a>&nbsp;&nbsp;by DIEGO CHAVEZ 
+						2022<a href="#" class="footer__link"
+							>&nbsp;&nbsp; Nanche Technologies</a
+						>&nbsp;&nbsp;by DIEGO CHAVEZ
 					</p>
 				</div>
 			</div>
