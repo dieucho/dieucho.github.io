@@ -31,19 +31,19 @@
 			<nav class="navigation__nav">
 				<ul class="navigation__list">
 					<li class="navigation__item">
-						<a href="#" class="navigation__link"><span>01</span>About Me</a>
+						<a href="#about" class="navigation__link" onclick="moveToSection('about')"><span>01</span>About Me</a>
 					</li>
 					<li class="navigation__item">
-						<a href="#" class="navigation__link"><span>02</span>Portfolio</a>
+						<a href="#portfolio" class="navigation__link" onclick="moveToSection('portfolio')"><span>02</span>Portfolio</a>
 					</li>
 					<li class="navigation__item">
-						<a href="#" class="navigation__link"><span>03</span>Skills</a>
+						<a href="#skills" class="navigation__link" onclick="moveToSection('skills')"><span>03</span>Skills</a>
 					</li>
 					<li class="navigation__item">
-						<a href="#" class="navigation__link"><span>04</span>Education</a>
+						<a href="#education" class="navigation__link" onclick="moveToSection('education')"><span>04</span>Education</a>
 					</li>
 					<li class="navigation__item">
-						<a href="#" class="navigation__link"><span>05</span>Contact info</a>
+						<a href="#contact" class="navigation__link" onclick="moveToSection('contact')"><span>05</span>Contact info</a>
 					</li>
 				</ul>
 			</nav>
@@ -78,7 +78,7 @@
 		</header>
 
 		<main>
-			<section class="section-about">
+			<section class="section-about" id="about">
 				<div class="u-center-text u-margin-bottom-medium">
 					<!--Utility class-->
 					<h2 class="heading-secondary">About me</h2>
@@ -102,7 +102,7 @@
 					</picture>
 				</div>
 			</section>
-			<section class="section-feature">
+			<section class="section-feature" id="portfolio">
 				<div class="u-center-text u-margin-bottom-extrabig">
 					<!--Utility class-->
 					<h2 class="heading-secondary u-change-color-clear">Portfolio</h2>
@@ -239,7 +239,7 @@
 				</div>
 			</section>
 
-			<section class="section-technologies">
+			<section class="section-technologies" id="skills">
 				<div class="u-center-text u-margin-bottom-medium">
 					<!--Utility class-->
 					<h2 class="heading-secondary">Skills</h2>
@@ -360,7 +360,7 @@
 			</section>
 		</main>
 
-		<footer class="footer">
+		<footer class="footer" id="contact">
 			<div class="footer__logo-box">
 				<picture class="footer__logo">
 					<img src="img/logo04.png" alt="logo" class="footer__logo" />
@@ -396,5 +396,6 @@
 		</footer>
 
 		<script src="js/slideshow.js"></script>
+		<script src="js/events.js"></script>
 	</body>
 </html>
